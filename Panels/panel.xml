@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.260 </y-m>
+      <z-m>  0.207 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.355 </y-m>
+      <z-m>  0.207 </z-m>
+    </offsets>
+  </model>
+
+  <!-- HDG -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/adf/ki227-01.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.172 </y-m>
+      <z-m>  0.207 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.422 </y-m>
+      <z-m>  0.101 </z-m>
+    </offsets>
+  </model>
+  
+  <!--HSI-->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/ki252a/ki252a.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.322 </y-m>
+      <z-m>  0.101 </z-m>
+    </offsets>
+  </model>
+
+   <!-- VSI -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.172 </y-m>
+      <z-m>  0.101 </z-m>
+    </offsets>
+  </model>
+   
+  <!-- DME -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/ki266/ki266.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> 0.042 </y-m>
+      <z-m>  0.249 </z-m>
+    </offsets>
+  </model>
+
+  <!-- CLOCK -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/clock/clock.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.432 </y-m>
+      <z-m>  0.197 </z-m>
+    </offsets>
+  </model>
+
+  <!-- KMA20 -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/kma20/kma20.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> 0.182 </y-m>
+      <z-m>  0.241 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- KLN90B -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/kln90b/kln90b.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> 0.072 </y-m>
+      <z-m>  0.115 </z-m>
+    </offsets>
+  </model>
+
+  <!-- KX165 -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/kx165/kx165-1.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> 0.075 </y-m>
+      <z-m>  0.063 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VOR -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/vor/vor.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> 0.042 </y-m>
+      <z-m>  0.185 </z-m>
+    </offsets>
+  </model>
+
+ 
+  <!-- KT70 -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/kt70/kt70.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> 0.182 </y-m>
+      <z-m>  0.181 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ************************************* Engine Gauges *********************************** --> 
+  <!-- FUEL FLOW -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/engine/fflow1.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.046 </y-m>
+      <z-m>  0.189 </z-m>
+    </offsets>
+  </model>
+
+  <!-- FUEL -->  
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/engine/fuel-qty0.xml</path>
+    <offsets>
+      <x-m> 2.053 </x-m>
+      <y-m>  -0.476 </y-m>
+      <z-m>  0.5635 </z-m>
+    <heading-deg> 90.00 </heading-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/engine/fuel-qty1.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.070 </y-m>
+      <z-m>  0.237 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/engine/fuel-qty2.xml</path>
+    <offsets>
+      <x-m> 2.053 </x-m>
+      <y-m>  0.476 </y-m>
+      <z-m>  0.5635 </z-m>
+    <heading-deg> -90.00 </heading-deg>
+    </offsets>
+  </model>
+  
+  <!-- ITT GAUGE -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/engine/itt1.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.046 </y-m>
+      <z-m>  0.137 </z-m>
+    </offsets>
+  </model>
+
+  <!-- OIL -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/engine/oilp1.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.10 </y-m>
+      <z-m>  0.137 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM -->  
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/engine/rpm1.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.046 </y-m>
+      <z-m>  0.077 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TORQUE -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/engine/torq1.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.10 </y-m>
+      <z-m>  0.077 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TURBINE -->
+  <model>
+    <path>Aircraft/C150Turbo/Panels/Instruments/engine/n21.xml</path>
+    <offsets>
+      <x-m> 1.662 </x-m>
+      <y-m> -0.10 </y-m>
+      <z-m>  0.189 </z-m>
+    </offsets>
+  </model>
+ 
+</PropertyList>
+

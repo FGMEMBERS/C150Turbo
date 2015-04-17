@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+
+    <description>Cessna 150 Turboshaft</description>
+    <author>(3D)FDM modded by LesterBoffo</author>
+    <flight-model>yasim</flight-model>
+    <aero>C150Turbo-yasim</aero>
+     <fuel-fraction>0.9</fuel-fraction>
+
+    <startup>
+      <splash-texture>Aircraft/C150Turbo/Splash/splash.png</splash-texture>
+    </startup>
+
+    <sound>
+      <path archive="y">Aircraft/C150Turbo/Sounds/c150turbo-sound.xml</path>
+    </sound>
+
+    <model>
+      <path archive="y">Aircraft/C150Turbo/Models/c150turbo-model.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+   <view n="0">
+        <name>Cockpit</name>
+        <type>lookfrom</type>
+        <internal type="bool">true</internal>
+        <config>
+            <x-offset-m type="double">-0.238</x-offset-m> <!--Right-->
+            <y-offset-m type="double">0.44</y-offset-m> <!--Up-->
+            <z-offset-m type="double">2.18</z-offset-m> <!--Back-->
+            <pitch-offset-deg>-10</pitch-offset-deg>
+           <default-field-of-view-deg>70</default-field-of-view-deg>
+        </config>
+    </view>
+
+       <!-- <view n="101">
+        <name>copilot</name>
+        <type>lookfrom</type>
+        <internal archive="y">true</internal>
+        <config>
+            <x-offset-m type="double">0.238</x-offset-m> 
+            <y-offset-m type="double">0.44</y-offset-m> 
+            <z-offset-m type="double">2.18</z-offset-m> 
+            <pitch-offset-deg>-10</pitch-offset-deg>
+           <default-field-of-view-deg>70</default-field-of-view-deg>
+        </config>
+    </view> -->
+
+     <view n="1">
+    <config>
+      <target-z-offset-m archive="y" type="double"> 2.2 </target-z-offset-m>
+    </config>
+  </view>
+
+  <view n="2">
+    <config>
+      <target-z-offset-m archive="y" type="double"> 2.2 </target-z-offset-m>
+    </config>
+  </view>
+
+  <view n="3">
+    <config>
+      <target-z-offset-m archive="y" type="double"> 2.2 </target-z-offset-m>
+    </config>
+  </view>
+
+    <menubar include="Dialogs/caravanA-menu.xml"/>
+
+    <flaps>
+      <setting>0.00</setting> <!-- Cruise -->
+      <setting>0.25</setting> <!-- Quarter -->
+      <setting>0.50</setting> <!-- Half -->
+      <setting>0.75</setting> <!-- Three-Quarter -->
+      <setting>1.0</setting> <!-- Full -->
+    </flaps>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int" n="0">0</int>
+        <int type="int" n="1">0</int>
+        <int type="int" n="2">0</int>
+        <int type="int" n="3">0</int>
+        <int type="int" n="4">0</int>
+        <int type="int" n="5">0</int>
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Cessna 150 Turbo</title>
+      <line>______________________________________________</line>
+    </help>
+
+    <caravan>
+      <state type="int">0</state>
+      <airspeed-kmh type="float">0.0</airspeed-kmh>
+      <engine-rpm type="float">0.0</engine-rpm>
+      <engine-volume-low-rpm type="float">0.0</engine-volume-low-rpm>
+      <engine-volume-high-rpm type="float">0.0</engine-volume-high-rpm>
+    </caravan>
+
+    <weight n="0">
+      <name>Pilot</name>
+      <weight-lb>180</weight-lb>
+      <max-lb>240</max-lb>
+      <min-lb>140</min-lb>
+    </weight>
+
+    <weight n="1">
+      <name>Pax</name>
+      <weight-lb>0</weight-lb>
+      <max-lb>240</max-lb>
+      <min-lb>0</min-lb>
+    </weight>
+
+    <weight n="2">
+      <name>Baggage</name>
+      <weight-lb>0</weight-lb>
+      <max-lb>20</max-lb>
+      <min-lb>0</min-lb>
+    </weight>
+
+  </sim>
+
+  <input>
+    <keyboard include="Nasal/caravan-keyboard.xml"/>
+  </input>
+
+  <engines>
+    <engine>
+      <rpm type="float">0.0</rpm>
+    </engine>
+  </engines>
+
+  <nasal>
+    <doors>
+      <file>Aircraft/C150Turbo/Nasal/doors.nas</file>
+    </doors>
+    <caravan>
+      <file>Aircraft/C150Turbo/Nasal/liveries.nas</file>
+      <file>Aircraft/C150Turbo/Nasal/light.nas</file>
+    </caravan>
+<!--
+    <ki252a>
+      <file>Aircraft/C150Turbo/Models/Interior/Panel/Instruments/ki252a/ki252a.nas</file>
+    </ki252a>
+-->
+    <ki266>
+      <file>Aircraft/C150Turbo/Models/Interior/Panel/Instruments/ki266/ki266.nas</file>
+    </ki266>
+    <kln90b>
+      <file>Aircraft/C150Turbo/Models/Interior/Panel/Instruments/kln90b/kln90b.nas</file>
+    </kln90b>
+  </nasal>
+
+</PropertyList>
+
